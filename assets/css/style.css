@@ -16,6 +16,9 @@ main{
   font-family: 'Smooch Sans', sans-serif;
   text-align: center;
   flex-grow: 1;
+  background-image: url('../img/fondo.svg');
+  background-size: cover;
+  padding-top: 50px;
 }
 header{
   justify-self: start;
@@ -28,9 +31,19 @@ header{
 }
 #temporizador input{
   margin: 10px;
+  font-size: 20px;
 }
-label{
-  font-size: 1.5rem;
+h2{
+  font-size: 3rem;
+  color: white;
+}
+#temporizador span{
+  color: white;
+  font-weight: bolder;
+}
+.btn-group button{
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .numeroReloj {
